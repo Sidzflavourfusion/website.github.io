@@ -1,0 +1,80 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@100;200;300;400;500;600;700&display=swap);
+
+:root
+{
+    /* ----Background Color---- */
+    --primary-color: #FFC222;
+    --secondary-color: #00a149;
+    --bg-white: #FFF;
+    --text-white: #FFF;
+
+  
+    
+    /* ----Text-Color------- */
+    --text-color: #b0b0b0;
+    --black-color: #1e1d23;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Quicksand', sans-serif;
+
+}
+
+@media (max-width:991px) {
+    .text-content{
+        width: 100%;
+    }
+    .navigation-wrap .navbar-brand img{
+        height: 3.8125rem;
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--bg-white);
+    }
+    .navigation-wrap .nav-link{
+        color: var(--black-color);
+        line-height: 1.875rem;
+
+    }
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+
+    .testinomial-section .carousel-caption p{
+        padding: 0;
+    }
+
+     
+     
+
+    
+}
+
+@media (max-width:767px) {
+    
+    h1{
+        font-size: 2.8rem;
+       
+    }
+    h2{
+        font-size: 1.3rem;
+        line-height: 28px;
+    }
+    .top-banner{
+        padding: 10.375rem 0 9.375rem;
+    }
+
+    .testinomial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
+     
+
+}
+
+@media (max-width:330px) {
+    .testinomial-section .carousel-item{
+        padding: 13rem 3.125rem;
+    }
+
+}
+
